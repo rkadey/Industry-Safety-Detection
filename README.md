@@ -21,6 +21,14 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## Workflow
+- constants
+- config_entity
+- artifact_entity
+- components
+- pipeline
+- app.py
+
 ## AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
