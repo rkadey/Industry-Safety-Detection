@@ -24,7 +24,6 @@ class DataIngestion:
         '''
         Fetch data from s3
         '''
-
         try: 
             zip_download_dir = self.data_ingestion_config.data_ingestion_dir
             os.makedirs(zip_download_dir, exist_ok=True)
